@@ -20,10 +20,10 @@ Records for 5,000,000+ commercial airline flights in 2015, compiled for the U.S.
 
 ## Problem Statement: 
 Flight delays are a common occurrence in the airline industry, causing significant inconvenience and frustration for passengers. Despite efforts to improve airline operations and reduce delays, they continue to impact the travel experience and cost the industry billions of dollars each year. An analysis of flight delays could involve examining various factors that contribute to delays, such as:
-**Weather conditions**: Extreme weather conditions such as storms, heavy rain, snow, and fog can cause flight delays or cancellations.
-**Air traffic congestion**: Busy airports and crowded airspace can cause delays in takeoff and landing.
-**Technical issues**: Technical issues with aircraft or equipment can cause delays, as well as maintenance or repair work.
-**Crew issues**: Delays can occur if there is a shortage of pilots or flight attendants, or if they are delayed or unavailable due to sickness, injury, or other reasons.
-**Security issues**: Security checks and procedures can cause delays, especially during high-security situations.
+-**Weather conditions**: Extreme weather conditions such as storms, heavy rain, snow, and fog can cause flight delays or cancellations.
+-**Air traffic congestion**: Busy airports and crowded airspace can cause delays in takeoff and landing.
+-**Technical issues**: Technical issues with aircraft or equipment can cause delays, as well as maintenance or repair work.
+-**Crew issues**: Delays can occur if there is a shortage of pilots or flight attendants, or if they are delayed or unavailable due to sickness, injury, or other reasons.
+-**Security issues**: Security checks and procedures can cause delays, especially during high-security situations.
 
 Analyzing flight delay data can provide insights into patterns and trends, such as the busiest times of year or the most common reasons for delays. This information can help airlines and airport operators to develop strategies for managing delays and improving the overall travel experience for passengers. It can also inform policy decisions related to air travel, such as regulations related to airport capacity or airline operations. 
