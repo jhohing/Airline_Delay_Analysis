@@ -37,7 +37,42 @@ For model prediction, we will use flights.csv. But for data insight, we will use
 
 ### Flights.csv
 It contains all the past data related to flight schedule from source to destination. Which we will use in our model to test and train. It has 5819079 samples with 31 feature. As we are going to implement it as classification problem. We need to consider a sample per class. 
+| Feature Name | Data Type | Description |
+| --- | --- | --- |
+| YEAR |Integer|Year of travel|
+|MONTH |Integer|Month of journey|
+|DAY OF WEEK|Integer|Day of week for the given journey|
+|DAY |Integer|Integer|
+|AIRLINE|String|
+|FLIGHT_NUMBER|String|
+|TAIL_NUMBER|String|
+|ORIGIN_AIRPORT|String|
+|DESTINATION_AIRPORT|String|
+|SCHEDULED_DEPARTURE|Float|
+|DEPARTURE_TIME|Float|
+|DEPARTURE_DELAY|Float|
+|TAXI_OUT|Float|
+|WHEELS_OFF|Float|
+|SCHEDULED_TIME|Float|
+|ELAPSED_TIME|Float|
+|AIR_TIME|Float|
+|DISTANCE|Integer|
+|WHEELS_ON|Float|
+|TAXI_IN|Float|
+|SCHEDULED_ARRIVAL|Float|
+|ARRIVAL_TIME|Float|
+|ARRIVAL_DELAY|Float|
+|DIVERTED|Boolean|
+|CANCELLED|Boolean|
+|CANCELLATION_REASON|String|
+|AIR_SYSTEM_DELAY|Boolean|
+|SECURITY_DELAY|Boolean|
+|AIRLINE_DELAY|Boolean|
+|LATE_AIRCRAFT_DELAY|Boolean|
+|WEATHER_DELAY|Boolean|
 
+ | Row 1 Column 2 | Row 1 Column 3 |
+| Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 |
 ### Airlines.csv
 This csv contains information related to airline. It has 2 feature with 15 samples.
 
