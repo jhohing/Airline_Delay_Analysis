@@ -85,13 +85,13 @@ This csv contains information related to airport. It has 7 feature with 322 samp
 
 | Feature Name | Data Type | Description |
 | --- | --- | --- |
-| IATA_CODE|	String	|IATA code for airport|
-|AIRPORT	String |	Airport name |
-|CITY	String |	Airport city |
-|STATE	String	|Airport belongs to which state.|
-|COUNTRY	Sting	|Country of airport|
-|LATITUDE	Float|	Geographical location of airport|
-|LONGITUDE	Float	|Geographical location of airport|
+ IATA_CODE|	String	|IATA code for airport|
+|AIRPORT|	String |	Airport name |
+|CITY	|String |	Airport city |
+|STATE	|String	|Airport belongs to which state.|
+|COUNTRY|	Sting	|Country of airport|
+|LATITUDE	|Float|	Geographical location of airport|
+|LONGITUDE|	Float	|Geographical location of airport|
 
 
 
