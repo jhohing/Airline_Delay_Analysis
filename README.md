@@ -9,10 +9,6 @@ Every airline has their flight history past journey, which can help them in pred
 
 The Motivation behind this project is to optimization of network operation, ground staff management and passenger. 
 
-## Data Set
-Records for 5,000,000+ commercial airline flights in 2015, compiled for the U.S. DOT Air Travel Consumer Report. Each record represents a single flight, including the airline name, flight number, origin/destination airport and flight distance, as well as scheduled/actual departure and arrival times.
-[Airline Flight Delays](https://www.mavenanalytics.io/data-playground?search=ai)
-
 ## Group Roles
 - Github Master & Database: [Justin](https://github.com/jhohing/Airline_Delay_Analysis/tree/justin_project)
 - Machine Learning: [Hanzian](https://github.com/jhohing/Airline_Delay_Analysis/tree/hanzian_project)
@@ -27,3 +23,58 @@ Flight delays are a common occurrence in the airline industry, causing significa
 - **Security issues**: Security checks and procedures can cause delays, especially during high-security situations.
 
 Analyzing flight delay data can provide insights into patterns and trends, such as the busiest times of year or the most common reasons for delays. This information can help airlines and airport operators to develop strategies for managing delays and improving the overall travel experience for passengers. It can also inform policy decisions related to air travel, such as regulations related to airport capacity or airline operations. 
+
+## Data Set
+Records for 5,000,000+ commercial airline flights in 2015, compiled for the U.S. DOT Air Travel Consumer Report. Each record represents a single flight, including the airline name, flight number, origin/destination airport and flight distance, as well as scheduled/actual departure and arrival times.
+[Airline Flight Delays](https://www.mavenanalytics.io/data-playground?search=ai).
+This corpus has 4 csv files. 
+-	flights.csv
+- airports.csv
+-	airline.csv
+-	cancellation_codes.csv
+
+For model prediction, we will use flights.csv. But for data insight, we will use other two also.
+
+### Flights.csv
+It contains all the past data related to flight schedule from source to destination. Which we will use in our model to test and train. It has 5819079 samples with 31 feature. As we are going to implement it as classification problem. We need to consider a sample per class. 
+| **`Feature Name`**| **`Data Type`**|**`Description`**|
+|--:|:--|--|
+|YEAR	|Integer	|Year of travel |
+|MONTH|	Integer|	Month of journey 
+|DAY	Integer	Day of Journey  
+|DAY_OF_WEEK	Integer	Day of week for the given journey
+|AIRLINE	String	Name of Airline 
+|FLIGHT_NUMBER	String	Unique identifier of Flight
+|TAIL_NUMBER	String 	It Aircraft registration number.
+|ORIGIN_AIRPORT	String	Source airport of journey 
+|DESTINATION_AIRPORT	String	Destination airport of journey
+|SCHEDULED_DEPARTURE	Float	Schedule departure time of aircraft
+|DEPARTURE_TIME	Float	Actual departure time of aircraftDEPARTURE_DELAY	Float	Actual Delay in departure of aircraft.
+|TAXI_OUT	Float 	Time to leave the gate 
+WHEELS_OFF	Float	Wheels take off from runway. 
+SCHEDULED_TIME	Float	Schedule take of time of wheels
+ELAPSED_TIME	Float	
+AIR_TIME	Float	Arrival time at airport 
+DISTANCE	Integer	The distance between ORIGIN_AIRPORT and DESTINATION_AIRPORT
+WHEELS_ON	Float 	Landing time on the runway
+TAXI_IN	Float	Reached on the gate
+SCHEDULED_ARRIVAL	Float	Schedule time to reach on gate
+ARRIVAL_TIME	Float	Actual arrival time 
+ARRIVAL_DELAY	Float	Arrival Delay of flight to reach the destination. 
+DIVERTED	Boolean	Flight diverted in between journey to any other airport. 
+CANCELLED	Boolean	Particular flight got cancelled or not.
+CANCELLATION_REASON	String 	What was the reason of cancellation of flight? 
+AIR_SYSTEM_DELAY	Boolean	Air system issue.
+SECURITY_DELAY	Boolean	Security issue 
+AIRLINE_DELAY	Boolean	Airline started delay
+LATE_AIRCRAFT_DELAY	Boolean	Connecting flight delay 
+WEATHER_DELAY	Boolean	Weather issue 
+![image](https://user-images.githubusercontent.com/114009272/223559870-80241648-14c7-4aa2-b936-d6e92e0cba05.png)
+
+### Airlines.csv
+This csv contains information related to airline. It has 2 feature with 15 sample.
+
+
+
+
+
