@@ -93,6 +93,46 @@ This csv contains information related to airport. It has 7 feature with 322 samp
 |LATITUDE	|Float|	Geographical location of airport|
 |LONGITUDE|	Float	|Geographical location of airport|
 
+## Machine Learning Project Design
+
+Every Machine Learning Project have some steps to achieve the goal. Below the steps or action, we need to perform for any ML project. I will follow the same for this project 
+
+### Language and Libraries 
+•	Python 3.X 
+•	Tensor flow  
+•	Scikit-learn 
+
+### Data Collection
+For implementing a machine learning model, we need data. In this problem, we will collect data in CSV format. 
+
+### Data Visualization 
+With the help of data visualization, we will try to get insight of data. In visualization, we can see the correlation in between features of data set like HeatMap, Scatter plot. 
+
+### Feature Engineering 
+Feature engineering is the main step in ML model designing. In this, we will do the feature analysis, which feature is more relevant and which are less impacting the outcome.  
+
+In feature Engineering, we will do feature normalization. So because of high magntiude one should not dominate another feature. 
+
+It very important step in the machine learning model. It can drastically impact model performance. 
+•	https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
+•	https://machinelearningmastery.com/an-introduction-to-feature-selection/
+•	https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0
+
+
+### Train & Test Dataset 
+We will Split the dataset into train and test, Training set we will use for our training and testing set for model validation. 
+
+### Model Training 
+Training selected model on train dataset and validating on Training set. 
+### Model Testing 
+Testing is the process to test the model performance or accuracy on test data set. 
+(Validating overfitting and underfitting) 
+
+### Model Tuning 	
+In tuning, we will try to tune our algorithms hyperparameter to get high accuracy and performance on test and train set with the help of GridSearch algorithm. 
+
+### Finalizing Model 
+Selecting best final model for production promote. 
 
 
 
