@@ -37,42 +37,13 @@ For model prediction, we will use flights.csv. But for data insight, we will use
 
 ### Flights.csv
 It contains all the past data related to flight schedule from source to destination. Which we will use in our model to test and train. It has 5819079 samples with 31 feature. As we are going to implement it as classification problem. We need to consider a sample per class. 
-| **`Feature Name`**| **`Data Type`**|**`Description`**|
-|--:|:--|--|
-|YEAR	|Integer	|Year of travel |
-|MONTH|	Integer|	Month of journey 
-|DAY	Integer	Day of Journey  
-|DAY_OF_WEEK	Integer	Day of week for the given journey
-|AIRLINE	String	Name of Airline 
-|FLIGHT_NUMBER	String	Unique identifier of Flight
-|TAIL_NUMBER	String 	It Aircraft registration number.
-|ORIGIN_AIRPORT	String	Source airport of journey 
-|DESTINATION_AIRPORT	String	Destination airport of journey
-|SCHEDULED_DEPARTURE	Float	Schedule departure time of aircraft
-|DEPARTURE_TIME	Float	Actual departure time of aircraftDEPARTURE_DELAY	Float	Actual Delay in departure of aircraft.
-|TAXI_OUT	Float 	Time to leave the gate 
-WHEELS_OFF	Float	Wheels take off from runway. 
-SCHEDULED_TIME	Float	Schedule take of time of wheels
-ELAPSED_TIME	Float	
-AIR_TIME	Float	Arrival time at airport 
-DISTANCE	Integer	The distance between ORIGIN_AIRPORT and DESTINATION_AIRPORT
-WHEELS_ON	Float 	Landing time on the runway
-TAXI_IN	Float	Reached on the gate
-SCHEDULED_ARRIVAL	Float	Schedule time to reach on gate
-ARRIVAL_TIME	Float	Actual arrival time 
-ARRIVAL_DELAY	Float	Arrival Delay of flight to reach the destination. 
-DIVERTED	Boolean	Flight diverted in between journey to any other airport. 
-CANCELLED	Boolean	Particular flight got cancelled or not.
-CANCELLATION_REASON	String 	What was the reason of cancellation of flight? 
-AIR_SYSTEM_DELAY	Boolean	Air system issue.
-SECURITY_DELAY	Boolean	Security issue 
-AIRLINE_DELAY	Boolean	Airline started delay
-LATE_AIRCRAFT_DELAY	Boolean	Connecting flight delay 
-WEATHER_DELAY	Boolean	Weather issue 
-![image](https://user-images.githubusercontent.com/114009272/223559870-80241648-14c7-4aa2-b936-d6e92e0cba05.png)
 
 ### Airlines.csv
-This csv contains information related to airline. It has 2 feature with 15 sample.
+This csv contains information related to airline. It has 2 feature with 15 samples.
+
+### Airport.csv
+This csv contains information related to airport. It has 7 feature with 322 samples.
+
 
 
 
