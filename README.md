@@ -14,9 +14,9 @@ Records for 5,000,000+ commercial airline flights in 2015, compiled for the U.S.
 ![Airline Flight Delays](https://www.mavenanalytics.io/data-playground?search=ai)
 
 ## Group Roles
-- Github Master & Database: ![Justin](https://github.com/jhohing/Airline_Delay_Analysis/tree/justin_project)
-- Machine Learning: ![Hanzian](https://github.com/jhohing/Airline_Delay_Analysis/tree/hanzian_project)
-- Data Visualization: ![Gideon](https://github.com/jhohing/Airline_Delay_Analysis/tree/gideon_project)
+- Github Master & Database: [Justin](https://github.com/jhohing/Airline_Delay_Analysis/tree/justin_project)
+- Machine Learning: [Hanzian](https://github.com/jhohing/Airline_Delay_Analysis/tree/hanzian_project)
+- Data Visualization: [Gideon](https://github.com/jhohing/Airline_Delay_Analysis/tree/gideon_project)
 
 ## Problem Statement: 
 Flight delays are a common occurrence in the airline industry, causing significant inconvenience and frustration for passengers. Despite efforts to improve airline operations and reduce delays, they continue to impact the travel experience and cost the industry billions of dollars each year. An analysis of flight delays could involve examining various factors that contribute to delays, such as:
