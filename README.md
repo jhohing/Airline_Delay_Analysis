@@ -98,9 +98,9 @@ This csv contains information related to airport. It has 7 feature with 322 samp
 Every Machine Learning Project have some steps to achieve the goal. Below the steps or action, we need to perform for any ML project. I will follow the same for this project 
 
 ### Language and Libraries 
-•	Python 3.X 
-•	Tensor flow  
-•	Scikit-learn 
+-	Python 3.X 
+-	Tensor flow  
+-	Scikit-learn 
 
 ### Data Collection
 For implementing a machine learning model, we need data. In this problem, we will collect data in CSV format. 
@@ -114,9 +114,9 @@ Feature engineering is the main step in ML model designing. In this, we will do 
 In feature Engineering, we will do feature normalization. So because of high magntiude one should not dominate another feature. 
 
 It very important step in the machine learning model. It can drastically impact model performance. 
-•	https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
-•	https://machinelearningmastery.com/an-introduction-to-feature-selection/
-•	https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0
+- https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
+- https://machinelearningmastery.com/an-introduction-to-feature-selection/
+- https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0
 
 
 ### Train & Test Dataset 
