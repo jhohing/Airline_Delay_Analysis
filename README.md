@@ -62,7 +62,7 @@ It contains all the past data related to flight schedule from source to destinat
 |TAXI_IN|Float|Reached on the gate|
 |SCHEDULED_ARRIVAL|Float|Schedule time to reach on gate|
 |ARRIVAL_TIME|Float|Actual arrival time |
-|**ARRIVAL_DELAY|Float|Arrival Delay of flight to reach the destination**|
+|**ARRIVAL_DELAY**|**Float**|**Arrival Delay of flight to reach the destination**|
 |DIVERTED|Boolean|Flight diverted in between journey to any other airport|
 |CANCELLED|Boolean|Flight got cancelled or not|
 |CANCELLATION_REASON|String|What was the reason of cancellation of flight? |
@@ -92,6 +92,8 @@ This csv contains information related to airport. It has 7 feature with 322 samp
 |COUNTRY|	Sting	|Country of airport|
 |LATITUDE	|Float|	Geographical location of airport|
 |LONGITUDE|	Float	|Geographical location of airport|
+
+- The Output labels (*ARRIVAL_DELAY*) will be our output data
 
 ## Machine Learning Project Design
 
