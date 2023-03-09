@@ -93,7 +93,6 @@ This csv contains information related to airport. It has 7 feature with 322 samp
 |LATITUDE	|Float|	Geographical location of airport|
 |LONGITUDE|	Float	|Geographical location of airport|
 
-- The Output labels (*ARRIVAL_DELAY*) will be our output data
 
 ## Machine Learning Project Design
 
