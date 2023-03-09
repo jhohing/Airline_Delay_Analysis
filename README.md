@@ -95,7 +95,7 @@ This csv contains information related to airport. It has 7 feature with 322 samp
 
 ## Machine Learning Project Design
 
-Every Machine Learning Project have some steps to achieve the goal. Below the steps or action, we need to perform for any ML project. I will follow the same for this project 
+Every Machine Learning Project have some steps to achieve the goal. Below the steps or action, we need to perform for any ML project. We will follow the same for this project 
 
 ### Language and Libraries 
 -	Python 3.X 
@@ -113,7 +113,9 @@ Feature engineering is the main step in ML model designing. In this, we will do 
 
 In feature Engineering, we will do feature normalization. So because of high magntiude one should not dominate another feature. 
 
-It very important step in the machine learning model. It can drastically impact model performance. 
+It very important step in the machine learning model. It can drastically impact model performance.
+
+#### References
 - https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
 - https://machinelearningmastery.com/an-introduction-to-feature-selection/
 - https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0
@@ -132,7 +134,7 @@ Testing is the process to test the model performance or accuracy on test data se
 In tuning, we will try to tune our algorithms hyperparameter to get high accuracy and performance on test and train set with the help of GridSearch algorithm. 
 
 ### Finalizing Model 
-Selecting best final model for production promote. 
+Selecting best final model for our purpose. 
 
 
 
