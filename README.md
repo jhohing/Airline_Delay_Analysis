@@ -107,7 +107,7 @@ Every Machine Learning Project have some steps to achieve the goal. Below the st
 For implementing a machine learning model, we need data. In this problem, we will collect data in CSV format. 
 
 ### Data Visualization 
-With the help of data visualization, we will try to get insight of data. In visualization, we can see the correlation in between features of data set like HeatMap, Scatter plot. 
+With the help of data visualization, we will try to get insight of data. In visualization, we can see the correlation in between features of data set like HeatMap, Scatter plot.Using tableau to give an insight of Airlines delays and cancellations to give an insight to the airline industry and make major ajustments to better serve the customers and also predict future delays and cancellations using vizualization. 
 
 ### Feature Engineering 
 Feature engineering is the main step in ML model designing. In this, we will do the feature analysis, which feature is more relevant and which are less impacting the outcome.  
