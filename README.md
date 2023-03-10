@@ -1,1 +1,1 @@
-Using tableau to give an insight of Airlines delays and cancellations to give an insight to the airline industry and make major ajustments to better serve the customers and also predict future delays and cancellations
+Using tableau to give an insight of Airlines delays and cancellations to give an insight to the airline industry and make major ajustments to better serve the customers and also predict future delays and cancellations using vizualization.
