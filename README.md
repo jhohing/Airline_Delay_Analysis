@@ -24,6 +24,17 @@ Flight delays are a common occurrence in the airline industry, causing significa
 
 Analyzing flight delay data can provide insights into patterns and trends, such as the busiest times of year or the most common reasons for delays. This information can help airlines and airport operators to develop strategies for managing delays and improving the overall travel experience for passengers. It can also inform policy decisions related to air travel, such as regulations related to airport capacity or airline operations. 
 
+## Questions to answer
+- How does the overall flight volume vary by month? By day of week?
+
+- What percentage of flights in experienced a departure delay in 2015? Among those flights, what was the average delay time, in minutes?
+
+- How does the % of delayed flights vary throughout the year? 
+
+- How many flights were cancelled in 2015? What % of cancellations were due to weather? What % were due to the Airline/Carrier?
+
+- Which airlines seem to be most and least reliable, in terms of on-time departure?
+
 ## Data Set
 Records for 5,000,000+ commercial airline flights in 2015, compiled for the U.S. DOT Air Travel Consumer Report. Each record represents a single flight, including the airline name, flight number, origin/destination airport and flight distance, as well as scheduled/actual departure and arrival times.
 [Airline Flight Delays](https://www.mavenanalytics.io/data-playground?search=ai).
