@@ -122,7 +122,9 @@ Every Machine Learning Project have some steps to achieve the goal. Below the st
 -	Scikit-learn 
 
 ### Data Collection
-For implementing a machine learning model, we need data. In our case, we will collect data in CSV format with `Flights.csv` wich contains all the data  we need for our purpose. 
+
+For implementing a machine learning model, we need data. In our case, we will collect data in CSV format with `Flights.csv` wich contains all the data  we need for our purpose.
+
 
 ### Feature Engineering 
 Feature engineering is the main step in ML model designing. In this, we will do the feature analysis, which feature is more relevant and which are less impacting the outcome. We will use the column **Arrival delays** to cover our feature because our project is based on the analysis of the Airline Flight Delays. 
