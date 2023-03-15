@@ -159,7 +159,7 @@ With the help of data visualization, we will try to get insight of data. In visu
 
 - `ROC Curve Plot`: The ROC (Receiver Operating Characteristic) curve can help you evaluate the trade-off between true positive rateand false positive rate of your model at different classification thresholds
 
-## Analysis
+### Prediction Analysis
 
 - Logistic regression model was trained and tested using a train-test split of the data. The model achieved an accuracy score of 0.87, which means that it correctly classified 87% of the observations in the test set. The recall score is 0.89, which means that the model correctly identified 89% of the positive cases in the test set. The precision score is 0.75, which means that when the model predicted a positive case, it was correct 75% of the time.
 
