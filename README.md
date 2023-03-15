@@ -143,14 +143,19 @@ By splitting the dataset into a train and test set, we can use the train set to 
 The main goal of fitting a model is to find the best set of parameters or weights that minimize the error between the predicted outputs and the actual outputs of the training data. Once the model has been fit to the training data, it can be used to make predictions.
 
 ### Finalizing Model 
-Selecting best final model for our purpose. For our project, we will 3 ML models to get the highest accuracy of prediction
+Selecting best final model for our purpose. For our project, we will 3 ML models to get the highest accuracy of prediction.
 
 ### Data Visualization 
-With the help of data visualization, we will try to get insight of data. In visualization, we can see the correlation in between features of data set like HeatMap, Scatter plot. 
+With the help of data visualization, we will try to get insight of data. In visualization, we can see the correlation in between features of data set like Confusion Matrix & ROC Curve. 
+-	`Confusion Matrix Plot`: A confusion matrix can help you visualize the performance of your model in terms of true positive, true negative, false positive, and false negative predictions.
+
+- `ROC Curve Plot`: The ROC (Receiver Operating Characteristic) curve can help you evaluate the trade-off between true positive rateand false positive rate of your model at different classification thresholds
 
 ### References
 - https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
 - https://machinelearningmastery.com/an-introduction-to-feature-selection/
 - https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0
+
+
 
 
