@@ -14,6 +14,13 @@ The Motivation behind this project is to optimization of network operation, grou
 - Machine Learning: [Hanzian](https://github.com/jhohing/Airline_Delay_Analysis/tree/hanzian_project)
 - Data Visualization: [Gideon](https://github.com/jhohing/Airline_Delay_Analysis/tree/gideon_project)
 
+## Communication Protocole
+| Tools used | Description |
+| --- | --- |
+| Github |We will use Github to share our work and follow each team member work|
+| Slack |we will use Slack to communicate, to review the code and organize team|
+| Zoom | We will be use to facilite all face to face meetings, collaborative tasks|
+
 ## Problem Statement: 
 Flight delays are a common occurrence in the airline industry, causing significant inconvenience and frustration for passengers. Despite efforts to improve airline operations and reduce delays, they continue to impact the travel experience and cost the industry billions of dollars each year. An analysis of flight delays could involve examining various factors that contribute to delays, such as:
 - **Weather conditions**: Extreme weather conditions such as storms, heavy rain, snow, and fog can cause flight delays or cancellations.
