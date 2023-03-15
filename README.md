@@ -14,6 +14,13 @@ The Motivation behind this project is to optimization of network operation, grou
 - Machine Learning: [Hanzian](https://github.com/jhohing/Airline_Delay_Analysis/tree/hanzian_project)
 - Data Visualization: [Gideon](https://github.com/jhohing/Airline_Delay_Analysis/tree/gideon_project)
 
+## Communication Protocole
+| Tools used | Description |
+| --- | --- |
+| Github |We will use Github to share our work and follow each team member work|
+| Slack |we will use Slack to communicate, to review the code and organize team|
+| Zoom | We will be use to facilite all face to face meetings, collaborative tasks|
+
 ## Problem Statement: 
 Flight delays are a common occurrence in the airline industry, causing significant inconvenience and frustration for passengers. Despite efforts to improve airline operations and reduce delays, they continue to impact the travel experience and cost the industry billions of dollars each year. An analysis of flight delays could involve examining various factors that contribute to delays, such as:
 - **Weather conditions**: Extreme weather conditions such as storms, heavy rain, snow, and fog can cause flight delays or cancellations.
@@ -23,6 +30,17 @@ Flight delays are a common occurrence in the airline industry, causing significa
 - **Security issues**: Security checks and procedures can cause delays, especially during high-security situations.
 
 Analyzing flight delay data can provide insights into patterns and trends, such as the busiest times of year or the most common reasons for delays. This information can help airlines and airport operators to develop strategies for managing delays and improving the overall travel experience for passengers. It can also inform policy decisions related to air travel, such as regulations related to airport capacity or airline operations. 
+
+## Questions to answer
+- How does the overall flight volume vary by month? By day of week?
+
+- What percentage of flights in experienced a departure delay in 2015? Among those flights, what was the average delay time, in minutes?
+
+- How does the % of delayed flights vary throughout the year? 
+
+- How many flights were cancelled in 2015? What % of cancellations were due to weather? What % were due to the Airline/Carrier?
+
+- Which airlines seem to be most and least reliable, in terms of on-time departure?
 
 ## Data Set
 Records for 5,000,000+ commercial airline flights in 2015, compiled for the U.S. DOT Air Travel Consumer Report. Each record represents a single flight, including the airline name, flight number, origin/destination airport and flight distance, as well as scheduled/actual departure and arrival times.
@@ -104,38 +122,61 @@ Every Machine Learning Project have some steps to achieve the goal. Below the st
 -	Scikit-learn 
 
 ### Data Collection
-For implementing a machine learning model, we need data. In this problem, we will collect data in CSV format. 
 
-### Data Visualization 
-With the help of data visualization, we will try to get insight of data. In visualization, we can see the correlation in between features of data set like HeatMap, Scatter plot.Using tableau to give an insight of Airlines delays and cancellations to give an insight to the airline industry and make major ajustments to better serve the customers and also predict future delays and cancellations using vizualization. 
+For implementing a machine learning model, we need data. In our case, we will collect data in CSV format with `Flights.csv` wich contains all the data  we need for our purpose.
+
 
 ### Feature Engineering 
-Feature engineering is the main step in ML model designing. In this, we will do the feature analysis, which feature is more relevant and which are less impacting the outcome.  
+Feature engineering is the main step in ML model designing. In this, we will do the feature analysis, which feature is more relevant and which are less impacting the outcome. We will use the column **Arrival delays** to cover our feature because our project is based on the analysis of the Airline Flight Delays. 
 
+Dataset in flights.csv is high in volume(~5819079). For computing, it will require high computation power and time. So for this project we are going to use only one month data (July).
+
+### Normalization
 In feature Engineering, we will do feature normalization. So because of high magntiude one should not dominate another feature. 
-
 It very important step in the machine learning model. It can drastically impact model performance.
-
-#### References
-- https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
-- https://machinelearningmastery.com/an-introduction-to-feature-selection/
-- https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0
-
 
 ### Train & Test Dataset 
 We will Split the dataset into train and test, Training set we will use for our training and testing set for model validation. 
 
-### Model Training 
-Training selected model on train dataset and validating on Training set. 
-### Model Testing 
-Testing is the process to test the model performance or accuracy on test data set. 
-(Validating overfitting and underfitting) 
+### Model Training & Testing 
+By splitting the dataset into a train and test set, we can use the train set to build and train the model and then evaluate its performance on the test set. It is important to note that the train-test split should be done randomly to avoid bias and ensure that the test set is representative of the overall population.
 
-### Model Tuning 	
-In tuning, we will try to tune our algorithms hyperparameter to get high accuracy and performance on test and train set with the help of GridSearch algorithm. 
+### Model fitting 	
+The main goal of fitting a model is to find the best set of parameters or weights that minimize the error between the predicted outputs and the actual outputs of the training data. Once the model has been fit to the training data, it can be used to make predictions.
 
-### Finalizing Model 
-Selecting best final model for our purpose. 
+### Choice of the Model 
+Selecting best final model for our purpose. For our project, we will 3 ML models to get the highest accuracy of prediction.
+
+| ML Models | Description | Benefits |
+| --- | --- | --- |
+| Logistic regression |Logistic regression is a popular statistical model that is commonly used for classification problems. It is a type of supervised learning algorithm that can be used for both binary and multi-class classification tasks.|Logistic regression is a simple and easy-to-understand model. It does not require a lot of computational resources and can be implemented easily. The coefficients in the logistic regression model can be interpreted as the effect of the corresponding input variables on the output variable, making it easy to explain the results to stakeholders.|
+| Decision Tree Classifier |Decision tree classifiers are a popular machine learning algorithm used for classification tasks. They are tree-like models that map observations about an item to conclusions about its target value| Decision trees are intuitive and easy to interpret. They can be visualized, making it easy to understand the decision-making process. Decision trees are not sensitive to the scale of the data, and they don't require normalization or scaling of the input features.|
+| Random Forest |Random forest is a popular machine learning algorithm that is commonly used for classification, regression, and other tasks. It is an ensemble learning technique that combines multiple decision trees to make more accurate and robust predictions.| Random forests are known for their high accuracy, especially when compared to other single algorithm models. This is because it combines multiple decision trees, which helps to reduce the variance and improve the predictive power. Random forests can handle large datasets with high dimensionality and a large number of features. It is also scalable, making it easy to work with larger datasets. This model is less prone to overfitting and are more robust to outliers and noise in the data.|
+
+### Data Visualization 
+With the help of data visualization, we will try to get insight of data. In visualization, we can see the correlation in between features of data set like Confusion Matrix & ROC Curve. 
+-	`Confusion Matrix Plot`: A confusion matrix can help you visualize the performance of your model in terms of true positive, true negative, false positive, and false negative predictions.
+
+- `ROC Curve Plot`: The ROC (Receiver Operating Characteristic) curve can help you evaluate the trade-off between true positive rateand false positive rate of your model at different classification thresholds
+
+## Analysis
+
+- Logistic regression model was trained and tested using a train-test split of the data. The model achieved an accuracy score of 0.87, which means that it correctly classified 87% of the observations in the test set. The recall score is 0.89, which means that the model correctly identified 89% of the positive cases in the test set. The precision score is 0.75, which means that when the model predicted a positive case, it was correct 75% of the time.
+
+- Decision tree classifier model achieved an accuracy score of 0.83, which means that it correctly classified 83% of the observations in the test set.
+
+- Random forest classifier model was trained and tested using a train-test split of the data, similar to the previous models. The model achieved an accuracy score of 0.88, which means that it correctly classified 88% of the observations in the test set.
+The recall score is 0.89, which means that the model correctly identified 89% of the positive cases in the test set. The precision score is 0.78, which means that when the model predicted a positive case, it was correct 78% of the time.
+
+Compared to the logistic regression and decision tree classifier models, the random forest classifier model performed slightly better in terms of accuracy and recall but performed similarly in terms of precision. Random forest is a more powerful and flexible model than decision tree and logistic regression models, and it can capture more complex relationships among the features in the dataset.
+
+### References
+- https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
+- https://machinelearningmastery.com/an-introduction-to-feature-selection/
+- https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0
+
+## Visualization (Dashbord)
+
 
 
 
