@@ -122,38 +122,35 @@ Every Machine Learning Project have some steps to achieve the goal. Below the st
 -	Scikit-learn 
 
 ### Data Collection
-For implementing a machine learning model, we need data. In this problem, we will collect data in CSV format. 
-
-### Data Visualization 
-With the help of data visualization, we will try to get insight of data. In visualization, we can see the correlation in between features of data set like HeatMap, Scatter plot. 
+For implementing a machine learning model, we need data. In our case, we will collect data in CSV format with `Flights.csv` wich contains all the data  we need for our purpose. 
 
 ### Feature Engineering 
-Feature engineering is the main step in ML model designing. In this, we will do the feature analysis, which feature is more relevant and which are less impacting the outcome.  
+Feature engineering is the main step in ML model designing. In this, we will do the feature analysis, which feature is more relevant and which are less impacting the outcome. We will use the column **Arrival delays** to cover our feature because our project is based on the analysis of the Airline Flight Delays. 
 
+Dataset in flights.csv is high in volume(~5819079). For computing, it will require high computation power and time. So for this project we are going to use only one month data (July).
+
+### Normalization
 In feature Engineering, we will do feature normalization. So because of high magntiude one should not dominate another feature. 
-
 It very important step in the machine learning model. It can drastically impact model performance.
-
-#### References
-- https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
-- https://machinelearningmastery.com/an-introduction-to-feature-selection/
-- https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0
-
 
 ### Train & Test Dataset 
 We will Split the dataset into train and test, Training set we will use for our training and testing set for model validation. 
 
-### Model Training 
-Training selected model on train dataset and validating on Training set. 
-### Model Testing 
-Testing is the process to test the model performance or accuracy on test data set. 
-(Validating overfitting and underfitting) 
+### Model Training & Testing 
+By splitting the dataset into a train and test set, we can use the train set to build and train the model and then evaluate its performance on the test set. It is important to note that the train-test split should be done randomly to avoid bias and ensure that the test set is representative of the overall population.
 
-### Model Tuning 	
-In tuning, we will try to tune our algorithms hyperparameter to get high accuracy and performance on test and train set with the help of GridSearch algorithm. 
+### Model fitting 	
+The main goal of fitting a model is to find the best set of parameters or weights that minimize the error between the predicted outputs and the actual outputs of the training data. Once the model has been fit to the training data, it can be used to make predictions.
 
 ### Finalizing Model 
-Selecting best final model for our purpose. 
+Selecting best final model for our purpose. For our project, we will 3 ML models to get the highest accuracy of prediction
 
+### Data Visualization 
+With the help of data visualization, we will try to get insight of data. In visualization, we can see the correlation in between features of data set like HeatMap, Scatter plot. 
+
+### References
+- https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
+- https://machinelearningmastery.com/an-introduction-to-feature-selection/
+- https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0
 
 
