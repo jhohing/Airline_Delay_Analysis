@@ -159,11 +159,21 @@ With the help of data visualization, we will try to get insight of data. In visu
 
 ## Analysis
 
+- Logistic regression model was trained and tested using a train-test split of the data. The model achieved an accuracy score of 0.87, which means that it correctly classified 87% of the observations in the test set. The recall score is 0.89, which means that the model correctly identified 89% of the positive cases in the test set. The precision score is 0.75, which means that when the model predicted a positive case, it was correct 75% of the time.
+
+- Decision tree classifier model achieved an accuracy score of 0.83, which means that it correctly classified 83% of the observations in the test set.
+
+- Random forest classifier model was trained and tested using a train-test split of the data, similar to the previous models. The model achieved an accuracy score of 0.88, which means that it correctly classified 88% of the observations in the test set.
+The recall score is 0.89, which means that the model correctly identified 89% of the positive cases in the test set. The precision score is 0.78, which means that when the model predicted a positive case, it was correct 78% of the time.
+
+Compared to the logistic regression and decision tree classifier models, the random forest classifier model performed slightly better in terms of accuracy and recall but performed similarly in terms of precision. Random forest is a more powerful and flexible model than decision tree and logistic regression models, and it can capture more complex relationships among the features in the dataset.
 
 ### References
 - https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
 - https://machinelearningmastery.com/an-introduction-to-feature-selection/
 - https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0
+
+## Visualization (Dashbord)
 
 
 
