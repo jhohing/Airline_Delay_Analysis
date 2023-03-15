@@ -142,8 +142,14 @@ By splitting the dataset into a train and test set, we can use the train set to 
 ### Model fitting 	
 The main goal of fitting a model is to find the best set of parameters or weights that minimize the error between the predicted outputs and the actual outputs of the training data. Once the model has been fit to the training data, it can be used to make predictions.
 
-### Finalizing Model 
+### Choice of the Model 
 Selecting best final model for our purpose. For our project, we will 3 ML models to get the highest accuracy of prediction.
+
+| ML Models | Description | Benefits |
+| --- | --- | --- |
+| Logistic regression |Logistic regression is a popular statistical model that is commonly used for classification problems. It is a type of supervised learning algorithm that can be used for both binary and multi-class classification tasks.|Logistic regression is a simple and easy-to-understand model. It does not require a lot of computational resources and can be implemented easily. The coefficients in the logistic regression model can be interpreted as the effect of the corresponding input variables on the output variable, making it easy to explain the results to stakeholders.|
+| Decision Tree Classifier |Decision tree classifiers are a popular machine learning algorithm used for classification tasks. They are tree-like models that map observations about an item to conclusions about its target value| Decision trees are intuitive and easy to interpret. They can be visualized, making it easy to understand the decision-making process. Decision trees are not sensitive to the scale of the data, and they don't require normalization or scaling of the input features.|
+| Random Forest |Random forest is a popular machine learning algorithm that is commonly used for classification, regression, and other tasks. It is an ensemble learning technique that combines multiple decision trees to make more accurate and robust predictions.| Random forests are known for their high accuracy, especially when compared to other single algorithm models. This is because it combines multiple decision trees, which helps to reduce the variance and improve the predictive power. Random forests can handle large datasets with high dimensionality and a large number of features. It is also scalable, making it easy to work with larger datasets. This model is less prone to overfitting and are more robust to outliers and noise in the data.|
 
 ### Data Visualization 
 With the help of data visualization, we will try to get insight of data. In visualization, we can see the correlation in between features of data set like Confusion Matrix & ROC Curve. 
