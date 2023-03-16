@@ -3,7 +3,7 @@ Using tableau to give an insight of Airlines delays and cancellations to give an
  Most delays happens in the month of Febuary,June,January and March
  Flights are mostly on-time in the month of september and October
  Weather is primary reason for cancellations
- 62% of flights are on time, 36% of flights are delayed; 1% are cancelled.
+ 62% of flights are on time, 36% of flights are delayed; 1% are cancelled
                                 
                                 AIRLINES ANALYSIS SUMMARY
                                 
