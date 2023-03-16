@@ -1,4 +1,4 @@
-sing tableau to give an insight of Airlines delays and cancellations to give an insight to the airline industry and make major ajustments to better serve the customers and also predict future delays and cancellations using vizualization.
+Using tableau to give an insight of Airlines delays and cancellations to give an insight to the airline industry and make major ajustments to better serve the customers and also predict future delays and cancellations using vizualization.
                                   SUMMARY
  Most delays happens in the month of Febuary,June,January and March
  Flights are mostly on-time in the month of september and October
