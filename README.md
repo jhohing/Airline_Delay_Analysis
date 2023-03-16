@@ -157,11 +157,15 @@ Selecting best final model for our purpose. For our project, we will 3 ML models
 With the help of data visualization, we will try to get insight of data. In visualization, we can see the correlation in between features of data set like Confusion Matrix & ROC Curve. 
 -	`Confusion Matrix Plot`: A confusion matrix can help you visualize the performance of your model in terms of true positive, true negative, false positive, and false negative predictions.
 
-- `ROC Curve Plot`: The ROC (Receiver Operating Characteristic) curve can help you evaluate the trade-off between true positive rateand false positive rate of your model at different classification thresholds
+- `ROC Curve Plot`: The ROC (Receiver Operating Characteristic) curve can help you evaluate the trade-off between true positive rateand false positive rate of your model at different classification thresholds.
+
 -                             AIRLINES ANALYSIS SUMMARY
+![Dashbord](https://github.com/jhohing/Airline_Delay_Analysis/tree/hanzian_project/Dashbord%20Viz)
+
 Spirit Airlines is at the top of delayed airline list followed by Frontier Airlines Delta Airlines is at the top of on-time airline list followed by Alaska Airline, difference between these two is of 4pp (pp- percent piont) Most cancellations is done by American Eagle (~5%) and the least cancellation is done by Hawaiian Airline (~0.2%).
 
                              DELAY ANALYSIS
+                           
 The major contributors to delay are from Airline followed by Air System Security delay has the least impact on overall delay Southwest Airline is at the top in the delayed airlines list as per flight count Spirit Airline is at the top in the delayed airlines list as per the percent of flight
 
                             CONCLUSION
