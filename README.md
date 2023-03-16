@@ -159,20 +159,6 @@ With the help of data visualization, we will try to get insight of data. In visu
 
 - `ROC Curve Plot`: The ROC (Receiver Operating Characteristic) curve can help you evaluate the trade-off between true positive rateand false positive rate of your model at different classification thresholds.
 
--                             AIRLINES ANALYSIS SUMMARY
-![Dashbord](https://github.com/jhohing/Airline_Delay_Analysis/blob/hanzian_project/Dashbord%20Viz/Screenshot%202023-03-16%20at%207.23.07%20PM.png)
-
-Spirit Airlines is at the top of delayed airline list followed by Frontier Airlines Delta Airlines is at the top of on-time airline list followed by Alaska Airline, difference between these two is of 4pp (pp- percent piont) Most cancellations is done by American Eagle (~5%) and the least cancellation is done by Hawaiian Airline (~0.2%).
-
-                             DELAY ANALYSIS
-                           
-The major contributors to delay are from Airline followed by Air System Security delay has the least impact on overall delay Southwest Airline is at the top in the delayed airlines list as per flight count Spirit Airline is at the top in the delayed airlines list as per the percent of flight
-
-                            CONCLUSION
-American Eagle has the maximum Cancellation Spirit Airlines is the most delayed in terms of the percentage of total flights an airline operates Weather is the major reason the cancellation Most delays occurs in the evening Delta Airline is at the top of the on-time list
-
-
-
 ### Prediction Analysis
 
 - Logistic regression model was trained and tested using a train-test split of the data. The model achieved an accuracy score of 0.87, which means that it correctly classified 87% of the observations in the test set. The recall score is 0.89, which means that the model correctly identified 89% of the positive cases in the test set. The precision score is 0.75, which means that when the model predicted a positive case, it was correct 75% of the time.
@@ -191,6 +177,23 @@ Compared to the logistic regression and decision tree classifier models, the ran
 
 ## Visualization (Dashbord)
 
+- SUMMARY 
+
+
+Most delays happens in the month of Febuary,June,January and March Flights are mostly on-time in the month of september and October Weather is primary reason for cancellations 62% of flights are on time, 36% of flights are delayed; 1% are cancelled.
+
+- AIRLINES ANALYSIS SUMMARY
+![Dashbord](https://github.com/jhohing/Airline_Delay_Analysis/blob/hanzian_project/Dashbord%20Viz/Screenshot%202023-03-16%20at%207.23.07%20PM.png)
+
+Spirit Airlines is at the top of delayed airline list followed by Frontier Airlines Delta Airlines is at the top of on-time airline list followed by Alaska Airline, difference between these two is of 4pp (pp- percent piont) Most cancellations is done by American Eagle (~5%) and the least cancellation is done by Hawaiian Airline (~0.2%).
+
+ - DELAY ANALYSIS
+ !(https://github.com/jhohing/Airline_Delay_Analysis/blob/hanzian_project/Dashbord%20Viz/Screenshot%202023-03-16%20at%207.33.58%20PM.png)
+ 
+The major contributors to delay are from Airline followed by Air System Security delay has the least impact on overall delay Southwest Airline is at the top in the delayed airlines list as per flight count Spirit Airline is at the top in the delayed airlines list as per the percent of flight
+
+ - CONCLUSION
+American Eagle has the maximum Cancellation Spirit Airlines is the most delayed in terms of the percentage of total flights an airline operates Weather is the major reason the cancellation Most delays occurs in the evening Delta Airline is at the top of the on-time list
 
 
 
