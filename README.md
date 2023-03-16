@@ -178,17 +178,17 @@ Compared to the logistic regression and decision tree classifier models, the ran
 ## Visualization (Dashbord)
 
 - SUMMARY 
-
+![Dashbord](https://github.com/jhohing/Airline_Delay_Analysis/blob/hanzian_project/Dashbord%20Viz/Screenshot%202023-03-16%20at%207.23.07%20PM.png)
 
 Most delays happens in the month of Febuary,June,January and March Flights are mostly on-time in the month of september and October Weather is primary reason for cancellations 62% of flights are on time, 36% of flights are delayed; 1% are cancelled.
 
 - AIRLINES ANALYSIS SUMMARY
-![Dashbord](https://github.com/jhohing/Airline_Delay_Analysis/blob/hanzian_project/Dashbord%20Viz/Screenshot%202023-03-16%20at%207.23.07%20PM.png)
+![](https://github.com/jhohing/Airline_Delay_Analysis/blob/hanzian_project/Dashbord%20Viz/Screenshot%202023-03-16%20at%207.33.58%20PM.png)
 
 Spirit Airlines is at the top of delayed airline list followed by Frontier Airlines Delta Airlines is at the top of on-time airline list followed by Alaska Airline, difference between these two is of 4pp (pp- percent piont) Most cancellations is done by American Eagle (~5%) and the least cancellation is done by Hawaiian Airline (~0.2%).
 
  - DELAY ANALYSIS
- !(https://github.com/jhohing/Airline_Delay_Analysis/blob/hanzian_project/Dashbord%20Viz/Screenshot%202023-03-16%20at%207.33.58%20PM.png)
+ ![](https://github.com/jhohing/Airline_Delay_Analysis/blob/hanzian_project/Dashbord%20Viz/Screenshot%202023-03-16%20at%207.33.58%20PM.png)
  
 The major contributors to delay are from Airline followed by Air System Security delay has the least impact on overall delay Southwest Airline is at the top in the delayed airlines list as per flight count Spirit Airline is at the top in the delayed airlines list as per the percent of flight
 
