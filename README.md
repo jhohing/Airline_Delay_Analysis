@@ -24,4 +24,4 @@ Spirit Airline is at the top in the delayed airlines list as per the percent of 
  Spirit Airlines is the most delayed in terms of the percentage of total flights an airline operates
  Weather is the major reason the cancellation 
  Most delays occurs in  the evening
- Delta Airline is at the top of the on-time list
+ Delta Airline is at the top of the on-time lis
