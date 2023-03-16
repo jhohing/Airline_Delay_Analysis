@@ -160,7 +160,7 @@ With the help of data visualization, we will try to get insight of data. In visu
 - `ROC Curve Plot`: The ROC (Receiver Operating Characteristic) curve can help you evaluate the trade-off between true positive rateand false positive rate of your model at different classification thresholds.
 
 -                             AIRLINES ANALYSIS SUMMARY
-![Dashbord](https://github.com/jhohing/Airline_Delay_Analysis/tree/hanzian_project/Dashbord%20Viz)
+![Dashbord](https://github.com/jhohing/Airline_Delay_Analysis/blob/hanzian_project/Dashbord%20Viz/Screenshot%202023-03-16%20at%207.23.07%20PM.png)
 
 Spirit Airlines is at the top of delayed airline list followed by Frontier Airlines Delta Airlines is at the top of on-time airline list followed by Alaska Airline, difference between these two is of 4pp (pp- percent piont) Most cancellations is done by American Eagle (~5%) and the least cancellation is done by Hawaiian Airline (~0.2%).
 
