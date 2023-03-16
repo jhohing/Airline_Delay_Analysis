@@ -153,11 +153,11 @@ Selecting best final model for our purpose. For our project, we will 3 ML models
 | Decision Tree Classifier |Decision tree classifiers are a popular machine learning algorithm used for classification tasks. They are tree-like models that map observations about an item to conclusions about its target value| Decision trees are intuitive and easy to interpret. They can be visualized, making it easy to understand the decision-making process. Decision trees are not sensitive to the scale of the data, and they don't require normalization or scaling of the input features.|
 | Random Forest |Random forest is a popular machine learning algorithm that is commonly used for classification, regression, and other tasks. It is an ensemble learning technique that combines multiple decision trees to make more accurate and robust predictions.| Random forests are known for their high accuracy, especially when compared to other single algorithm models. This is because it combines multiple decision trees, which helps to reduce the variance and improve the predictive power. Random forests can handle large datasets with high dimensionality and a large number of features. It is also scalable, making it easy to work with larger datasets. This model is less prone to overfitting and are more robust to outliers and noise in the data.|
 
-### Data Visualization 
+### Machine Learning Visualization 
 With the help of data visualization, we will try to get insight of data. In visualization, we can see the correlation in between features of data set like Confusion Matrix & ROC Curve. 
 -	`Confusion Matrix Plot`: A confusion matrix can help you visualize the performance of your model in terms of true positive, true negative, false positive, and false negative predictions.
 
-- `ROC Curve Plot`: The ROC (Receiver Operating Characteristic) curve can help you evaluate the trade-off between true positive rateand false positive rate of your model at different classification thresholds
+- `ROC Curve Plot`: The ROC (Receiver Operating Characteristic) curve can help you evaluate the trade-off between true positive rateand false positive rate of your model at different classification thresholds.
 
 ### Prediction Analysis
 
@@ -177,6 +177,36 @@ Compared to the logistic regression and decision tree classifier models, the ran
 
 ## Visualization (Dashbord)
 
+### Summary
+![Dashbord](https://github.com/jhohing/Airline_Delay_Analysis/blob/hanzian_project/Dashbord%20Viz/Screenshot%202023-03-16%20at%207.23.07%20PM.png)
+
+- Most delays happens in the month of Febuary,June,January and March 
+- Flights are mostly on-time in the month of september and October 
+- Weather is primary reason for cancellations 
+- ~62% of flights are on time, 36% of flights are delayed; 1% are cancelled.
+
+### Airlines Analysis Summary
+
+![](https://github.com/jhohing/Airline_Delay_Analysis/blob/hanzian_project/Dashbord%20Viz/Screenshot%202023-03-16%20at%207.33.58%20PM.png)
+
+- Spirit Airlines is at the top of delayed airline list followed by Frontier Airlines 
+- Delta Airlines is at the top of on-time airline list followed by Alaska Airline, difference between these two is of 4pp (pp- percent piont) 
+- Most cancellations is done by American Eagle (~5%) and the least cancellation is done by Hawaiian Airline (~0.2%).
+
+ ### Delay Analysis
+ 
+ ![](https://github.com/jhohing/Airline_Delay_Analysis/blob/hanzian_project/Dashbord%20Viz/Screenshot%202023-03-16%20at%207.34.13%20PM.png)
+ 
+- The major contributors to delay are from Airline followed by Air 
+- System Security delay has the least impact on overall delay 
+- Southwest Airline is at the top in the delayed airlines list as per flight count 
+- Spirit Airline is at the top in the delayed airlines list as per the percent of flight
+
+ ### Conclusion
+ 
+- American Eagle has the maximum Cancellation 
+- Spirit Airlines is the most delayed in terms of the percentage of total flights an airline operates Weather is the major reason the cancellation 
+- Most delays occurs in the evening Delta Airline is at the top of the on-time list.
 
 
 
