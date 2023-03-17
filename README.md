@@ -53,6 +53,9 @@ This corpus has 4 csv files.
 
 For model prediction, we will use flights.csv. But for data insight, we will use other two also.
 
+### Database Storage
+The data for outr analysis will be stored in a PostgreSQL relational database.
+
 ### Flights.csv
 It contains all the past data related to flight schedule from source to destination. Which we will use in our model to test and train. It has 5819079 samples with 31 feature. As we are going to implement it as classification problem. We need to consider a sample per class. 
 
