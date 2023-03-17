@@ -205,7 +205,8 @@ Compared to the logistic regression and decision tree classifier models, the ran
  ### Conclusion
  
 - American Eagle has the maximum Cancellation 
-- Spirit Airlines is the most delayed in terms of the percentage of total flights an airline operates Weather is the major reason the cancellation 
+- Spirit Airlines is the most delayed in terms of the percentage of total flights an airline operates.
+-  Weather is the major reason the cancellation 
 - Most delays occurs in the evening Delta Airline is at the top of the on-time list.
 
 
