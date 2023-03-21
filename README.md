@@ -17,8 +17,14 @@ Most cancellations is done by American Eagle (~5%) and the least cancellation is
 The major contributors to delay are from Airline  followed by Air System
 Security delay has the least impact on overall delay
 Southwest Airline is at the top in the delayed airlines list as per flight count 
-Spirit Airline is at the top in the delayed airlines list as per the percent of flight 
+Spirit Airline is at the top in the delayed airlines list as per the percent of flight
 
+                                RECOMMENDATIONS
+ September and october are the months that flights are generally on time because of the weather conditions
+ Febuary is the month trhat there are mostlys flight delays
+ Hawain airline never cancell their flights
+                                
+   
                                 CONCLUSION
  American Eagle has the maximum Cancellation
  Spirit Airlines is the most delayed in terms of the percentage of total flights an airline operates
