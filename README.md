@@ -206,7 +206,10 @@ Compared to the logistic regression and decision tree classifier models, the ran
 - Spirit Airline is at the top in the delayed airlines list as per the percent of flight
 
  ### Conclusion
- 
-- American Eagle has the maximum Cancellation 
-- Spirit Airlines is the most delayed in terms of the percentage of total flights an airline operates Weather is the major reason the cancellation 
-- Most delays occurs in the evening Delta Airline is at the top of the on-time list.
+
+In conclusion, the data provided suggests that flight delays and cancellations are a common occurrence in the airline industry, with weather and airline operational issues being among the main contributing factors. While airlines themselves are often the primary cause of delays, air traffic control systems can also play a significant role.
+
+When looking at specific airlines, it appears that Southwest and Spirit Airlines are among the most frequently delayed carriers, while Delta and Alaska Airlines tend to have the best on-time performance. American Eagle has the highest rate of cancellations, while Hawaiian Airlines has the lowest.
+
+While this information can be helpful for travelers when making decisions about which airline to book with, it's important to remember that delays and cancellations can happen with any carrier. It's always a good idea to plan ahead and be prepared for potential disruptions, such as by booking flexible tickets and having backup travel plans in place.
+
