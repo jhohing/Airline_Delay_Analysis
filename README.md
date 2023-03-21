@@ -19,10 +19,7 @@ Security delay has the least impact on overall delay
 Southwest Airline is at the top in the delayed airlines list as per flight count 
 Spirit Airline is at the top in the delayed airlines list as per the percent of flight
 
-                                RECOMMENDATIONS
- September and october are the months that flights are generally on time because of the weather conditions
- Febuary is the month trhat there are mostlys flight delays
- Hawain airline never cancell their flights
+                               
                                 
    
                                 CONCLUSION
