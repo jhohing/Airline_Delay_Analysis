@@ -44,7 +44,7 @@ Analyzing flight delay data can provide insights into patterns and trends, such 
 
 ## Data Set
 Records for 5,000,000+ commercial airline flights in 2015, compiled for the U.S. DOT Air Travel Consumer Report. Each record represents a single flight, including the airline name, flight number, origin/destination airport and flight distance, as well as scheduled/actual departure and arrival times.
-[Airline Flight Delays](https://www.mavenanalytics.io/data-playground?search=ai).
+[Airline Flight Delays](https://www.mavenanalytics.io/data-playground?search=flight%20delays).
 This corpus has 4 csv files. 
 -	flights.csv
 - airports.csv
@@ -52,6 +52,9 @@ This corpus has 4 csv files.
 -	cancellation_codes.csv
 
 For model prediction, we will use flights.csv. But for data insight, we will use other two also.
+
+### Database Storage
+The data for outr analysis will be stored in a PostgreSQL relational database.
 
 ### Flights.csv
 It contains all the past data related to flight schedule from source to destination. Which we will use in our model to test and train. It has 5819079 samples with 31 feature. As we are going to implement it as classification problem. We need to consider a sample per class. 
@@ -203,11 +206,10 @@ Compared to the logistic regression and decision tree classifier models, the ran
 - Spirit Airline is at the top in the delayed airlines list as per the percent of flight
 
  ### Conclusion
- 
+
 In conclusion, the data provided suggests that flight delays and cancellations are a common occurrence in the airline industry, with weather and airline operational issues being among the main contributing factors. While airlines themselves are often the primary cause of delays, air traffic control systems can also play a significant role.
 
 When looking at specific airlines, it appears that Southwest and Spirit Airlines are among the most frequently delayed carriers, while Delta and Alaska Airlines tend to have the best on-time performance. American Eagle has the highest rate of cancellations, while Hawaiian Airlines has the lowest.
 
 While this information can be helpful for travelers when making decisions about which airline to book with, it's important to remember that delays and cancellations can happen with any carrier. It's always a good idea to plan ahead and be prepared for potential disruptions, such as by booking flexible tickets and having backup travel plans in place.
-
 
