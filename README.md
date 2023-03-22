@@ -236,4 +236,4 @@ Based on the data provided, here are some recommendations for travelers to consi
 
 ## Presentation
 
-![Airlines Delays Analysis Dashbord](https://public.tableau.com/app/profile/gideon.nyamaah7372/viz/FlightDelayAnalysis_16788236791880/Summary)
+[Airlines Delays Analysis Dashbord](https://public.tableau.com/app/profile/gideon.nyamaah7372/viz/FlightDelayAnalysis_16788236791880/Summary)
