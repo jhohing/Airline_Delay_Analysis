@@ -233,3 +233,7 @@ Based on the data provided, here are some recommendations for travelers to consi
 - Analysis by route: We could look at which flight routes have the highest rates of delays and cancellations, which could be useful for travelers when choosing their travel route.
 
 - Analysis by airline size: We could compare the performance of large airlines (such as American Airlines and United Airlines) to smaller airlines (such as JetBlue and Alaska Airlines) to see if there is any correlation between airline size and performance.
+
+## Presentation
+
+![Airlines Delays Analysis Dashbord](https://public.tableau.com/app/profile/gideon.nyamaah7372/viz/FlightDelayAnalysis_16788236791880/Summary)
