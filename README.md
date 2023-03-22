@@ -225,3 +225,15 @@ Based on the data provided, here are some recommendations for travelers to consi
 - Monitor your flight status and sign up for alerts from the airline, so you can be notified of any changes or delays.
 - If your flight is delayed or canceled, be proactive and reach out to the airline for assistance, such as rebooking on a different flight or receiving compensation for the inconvenience.
 - By following these recommendations, travelers can increase their chances of having a smooth and stress-free travel experience, even in the face of potential delays and disruptions.
+
+### Other analysis recommendations
+
+- Analysis by airport: We could look at which airports have the highest and lowest rates of flight delays and cancellations, which could be useful for travelers when planning their travel itinerary.
+
+- Analysis by route: We could look at which flight routes have the highest rates of delays and cancellations, which could be useful for travelers when choosing their travel route.
+
+- Analysis by airline size: We could compare the performance of large airlines (such as American Airlines and United Airlines) to smaller airlines (such as JetBlue and Alaska Airlines) to see if there is any correlation between airline size and performance.
+
+## Presentation
+
+[Airlines Delays Analysis Dashbord](https://public.tableau.com/app/profile/gideon.nyamaah7372/viz/FlightDelayAnalysis_16788236791880/Summary)
